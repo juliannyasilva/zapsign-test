@@ -35,13 +35,13 @@ Fluxo de criação e assinatura de documentos via endpoint
 
 Testes funcionais automatizados utilizando o framework Cypress.io.
 
-1. Equipe e infra-estrutura
+4. Equipe e infra-estrutura
 
 - Engenheira de software: Julianny Silva
 - Equipamentos: Macbook
 - Repositorio: Github
 
-1. Cronograma de atividades
+5. Cronograma de atividades
 
 As atividades principais a serem feitas é analise do processo atual de desenvolvimento apontando melhorias pertinentes, engenharia reversa das funcionalidades para levantar os comportamentos, criar os casos de testes dos requisitos deste escopo, implementar testes automatizados, execução de testes e avaliação de testes.
 
@@ -50,6 +50,12 @@ As atividades principais a serem feitas é analise do processo atual de desenvol
 Relação dos documentos pertinentes ao projeto:
 - https://docs.zapsign.com.br/
 - https://clients.zapsign.com.br/help
+
+# Casos de testes
+
+Como nao obtive acesso a documentacao e algumas funcionalidades do aplicativo, nao foi possivel desenvolver o passo a passo de alguns cenários. Mas escrevi os casos de testes minimos para o escopo do projeto.
+
+[PDF: casos-de-testes-zapsign](casos-de-testes-zapsign.pdf)
 
 # Como rodar os testes automatizados
 
