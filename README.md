@@ -33,16 +33,15 @@ Fluxo de criação e assinatura de documentos via endpoint
 
 3. Estratégias e ferramentas de teste
 
-Testes funcionais automatizados utilizando o framework Cypress.io. E testes nao-funcionais automatizados utilizando o framework Pytest.
+Testes funcionais automatizados utilizando o framework Cypress.io.
 
-4. Equipe e infra-estrutura
+1. Equipe e infra-estrutura
 
 - Engenheira de software: Julianny Silva
 - Equipamentos: Macbook
-- Browser: Chrome
 - Repositorio: Github
 
-5. Cronograma de atividades
+1. Cronograma de atividades
 
 As atividades principais a serem feitas é analise do processo atual de desenvolvimento apontando melhorias pertinentes, engenharia reversa das funcionalidades para levantar os comportamentos, criar os casos de testes dos requisitos deste escopo, implementar testes automatizados, execução de testes e avaliação de testes.
 
@@ -52,3 +51,24 @@ Relação dos documentos pertinentes ao projeto:
 - https://docs.zapsign.com.br/
 - https://clients.zapsign.com.br/help
 
+# Como rodar os testes automatizados
+
+### 1. Instala as dependencias do projeto via NPM:
+```
+npm install
+```
+
+### 2. Informa os dados do usuario de testes
+
+- Informa os dados nos campos correspondentes
+- Renome o arquivo de `sample-cypress.env.json` para `cypress.env.json`
+
+### 3. Executa os testes automatizados em cypress
+```
+npm run cypress:run
+```
+
+### 4. Se preferir pode estar executando os testes de forma headless:
+```
+npm run cypress:headless
+```

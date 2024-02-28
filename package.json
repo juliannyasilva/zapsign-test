@@ -1,0 +1,32 @@
+{
+  "name": "zapsign-test",
+  "version": "1.0.0",
+  "description": "automacao de testes em algumas funcionalidades do software zapsign",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "cypress run --headed",
+    "cypress:headless": "cypress run --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliannyasilva/zapsign-test.git"
+  },
+  "keywords": [
+    "qa",
+    "test",
+    "automation",
+    "cypress",
+    "zapsign"
+  ],
+  "author": "juliannyasilva@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliannyasilva/zapsign-test/issues"
+  },
+  "homepage": "https://github.com/juliannyasilva/zapsign-test#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.6.6"
+  }
+}
