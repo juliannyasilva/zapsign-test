@@ -9,8 +9,18 @@
 // ***********************************************
 //
 //
+
+import EntrarPage from "../page/entrar"
+
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('login', (email, password) => { 
+    EntrarPage.visitar();
+    EntrarPage.digitarEmail(Cypress.env('email'));
+    EntrarPage.digitarSenha(Cypress.env('senha'));
+    EntrarPage.clicarEntrar();
+    cy.contains('Carregando seus dados...');
+    cy.location('href').should('include', '/conta/documentos');
+})
 //
 //
 // -- This is a child command --
